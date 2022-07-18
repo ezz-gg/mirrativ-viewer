@@ -10,7 +10,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage()
   console.log("Go To 配信ページ")
   await page.goto(haisinurl)
-  await page.setViewport({ width: 1280, height: 900 })
+  await page.setViewport({ width: 1, height: 1 })
   while (true) {
     console.log("クッキー削除")
     const client = await page.target().createCDPSession()
