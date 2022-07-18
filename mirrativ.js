@@ -1,3 +1,4 @@
+/*ここにMirrativ配信URLを貼り付ける*/
 const haisinurl = ""
 
 const puppeteer = require('puppeteer');
