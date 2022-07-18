@@ -1,6 +1,8 @@
 # Mirrativ視聴回数爆
 へへへ
 
+## ChecklyhqのIP使えなくなってますwwwww
+
 ## 使い方
 
 ### Mirrativの配信URLをconst haisinurl = ""に(Browserから撮ってきた方)
