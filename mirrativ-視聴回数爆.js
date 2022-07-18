@@ -1,7 +1,3 @@
-/*Mirrativの配信URLをここに(Browserから撮ってきた方)
-ここに行ってこのコード全て貼り付けてcheck連打してください
-https://app.checklyhq.com/checks/new/browser?framework=puppeteer
-*/
 const haisinurl = ""
 
 const puppeteer = require('puppeteer');
