@@ -27,14 +27,13 @@ async function miru1() {
     await page.goto(haisinurl);
     await page.setViewport({ width: 1280, height: 720 });
     await Promise.all([
-    miru2(page),
-    miru2(page),
-    miru2(page),
-    miru2(page),
-    aInterval(),
-])
+        miru2(page),
+        miru2(page),
+        miru2(page),
+        miru2(page),
+        aInterval(),
+    ])
 }
-
 
 async function miru2(page) {
     const client = await page.target().createCDPSession();
