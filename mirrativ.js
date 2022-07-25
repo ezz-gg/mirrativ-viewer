@@ -48,7 +48,8 @@ async function miru2(page) {
 
 async function aInterval() {
     setInterval(function() {
-        timer-=kaisu;
+        let kaisuu = kaisu + 1
+        timer-=kaisuu;
     }, cooldown);
 };
 
