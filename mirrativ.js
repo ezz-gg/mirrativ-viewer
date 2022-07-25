@@ -3,7 +3,7 @@
 https://app.checklyhq.com/checks/new/browser?framework=puppeteer
 */
 
-const haisinurl = "https://www.mirrativ.com/live/XVICYPj6oYRNEBuUzcN1Xg" // mirrativ配信url ここにアクセスしに行きます
+const haisinurl = "" // mirrativ配信url ここにアクセスしに行きます
 const cooldown = 20000 // クールダウンが終わるまでのms秒
 const kaisu = 50 // 1回のクールダウンまでに動く回数
 
