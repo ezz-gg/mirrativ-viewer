@@ -48,7 +48,7 @@ async function miru2(page) {
 
 async function aInterval() {
     setInterval(function() {
-        timer-=26;
+        timer-=kaisu;
     }, cooldown);
 };
 
